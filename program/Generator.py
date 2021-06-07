@@ -2,7 +2,7 @@ from Table import Table
 
 class Generator:
     """
-    Main class. Drives word search generation process.
+    Main class. Drives the word search generation process.
     """
     def __init__(self, width, height, words=[], fail_by=100):
         self.table = Table(width, height)

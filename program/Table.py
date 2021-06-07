@@ -2,7 +2,7 @@ import Random as rand
 
 class Table(list):
     """
-    Handles construction of word search table and access of elements.
+    Handles construction of word search table and placement of characters.
     """
     def __init__(self, width, height):
         self.width = width

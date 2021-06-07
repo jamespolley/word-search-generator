@@ -1,5 +1,5 @@
 """
-Functionality for randomly generating word position origins and directions.
+Functionality for randomly generating word positions, directions, and empty space characters.
 """
 
 import random
