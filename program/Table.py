@@ -1,4 +1,4 @@
-import Random as rand
+import program.Random as rand
 
 class Table(list):
     """

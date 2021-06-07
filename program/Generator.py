@@ -1,4 +1,4 @@
-from Table import Table
+from program.Table import Table
 
 class Generator:
     """
@@ -16,8 +16,3 @@ class Generator:
     
     def __repr__(self):
         return self.table.__repr__()
-
-# test
-g = Generator(10, 10, ["lizard", "frog", "snake", "turtle"])
-g.generate()
-print(g.table)
