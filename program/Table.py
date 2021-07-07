@@ -17,6 +17,8 @@ class Table(list):
             self.append(row)
     
     def place_word(self, word, fail_by=100):
+        if ((len(word) > self.width) or (len(word) > self.height)):
+            return False
         for attempt in range(fail_by):
             x, y, direction_x, direction_y = rand.position(
                 self.width, self.height, len(word))

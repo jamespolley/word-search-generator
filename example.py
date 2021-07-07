@@ -2,7 +2,8 @@
 from program.Generator import Generator
 
 # Create word list.
-words = ["lizard", "snake", "frog", "turtle", "reptile", "animal"]
+words = ["lizard", "snake", "frog", "turtle", "reptile", "animal",
+    "aligatasaurus"] # overly long word added, to ensure overly long words are skipped
 
 # Create Generator with width, height, and word list.
 gen = Generator(10, 10, words)
